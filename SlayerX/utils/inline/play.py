@@ -70,10 +70,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✭ ᴜᴘᴅᴀᴛᴇs ✭", url=config.SUPPORT_CHANNEL
+                text="𝐂ʀᴀᴢʏ 𝐔ᴘᴅᴀᴛᴇs", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text="✭ sᴜᴘᴘᴏʀᴛ ✭", url=config.SUPPORT_CHAT
+                text="𝐂ʀᴀᴢʏ 𝐒ᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
